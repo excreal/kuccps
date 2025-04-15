@@ -28,6 +28,7 @@ def main():
     # Step 3: Run build.sh
     print("🔨 Building the project...")
     run_cmd("bash build.sh", cwd=repo_dir)
+    run_cmd("cd ~/kuccps")
 
     print("✅ Setup complete!")
 

