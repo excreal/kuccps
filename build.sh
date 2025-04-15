@@ -23,6 +23,7 @@ fi
 
 # Build the project
 echo "Building the project..."
+go get kuccps
 go build $BUILD_FLAGS -ldflags="$LD_FLAGS" -o "$OUTPUT_DIR/$APP_NAME"
 
 # Verify build
