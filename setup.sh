@@ -19,5 +19,6 @@ echo "🔨 Building the project..."
 
 cd ~/kuccps/
 bash build.sh
+cd ~/kuccps/
 
 echo "✅ Setup complete!"
