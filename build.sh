@@ -4,7 +4,7 @@
 APP_NAME="kuccps"
 GO_ARCH="amd64"             # Can be amd64, 386, arm, arm64
 GO_OS="linux"               # Target OS (Linux)
-OUTPUT_DIR="bin"            # Output directory
+OUTPUT_DIR="../../bin"            # Output directory
 ICON_FILE="app.ico"         # Optional icon file (Not applicable for Linux)
 LD_FLAGS="-s -w"            # Linker flags to reduce binary size
 BUILD_FLAGS="-trimpath"     # Additional build flags

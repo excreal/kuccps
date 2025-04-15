@@ -16,8 +16,8 @@ else
 fi
 
 echo "🔨 Building the project..."
-cd ~/kuccps/build/linux
-bash build.sh
+
 cd ~/kuccps/
+bash build.sh
 
 echo "✅ Setup complete!"
